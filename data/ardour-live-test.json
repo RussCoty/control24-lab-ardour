@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-06",
+  "daw": "Ardour 9.8.93 development build",
+  "endpoint": "127.0.0.1:3819",
+  "feedback_port": 9126,
+  "session": "runtime/Ardour OSC Test/Ardour OSC Test.ardour",
+  "backend": "Dummy / Silence",
+  "checks": {
+    "fader": true,
+    "mute_on": true,
+    "mute_off": true,
+    "pan": true,
+    "pan_restored": true,
+    "play": true,
+    "stop": true
+  },
+  "persisted_gain_controls": [
+    {
+      "name": "gaincontrol",
+      "id": "206",
+      "flags": "GainLike",
+      "value": "0.15879872441291809"
+    }
+  ],
+  "output_left_enabled": false,
+  "physical_desk_connected": false,
+  "mixbus_live_tested": false,
+  "custom_region_actions_live_tested": false
+}

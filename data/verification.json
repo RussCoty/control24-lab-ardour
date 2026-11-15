@@ -1,0 +1,24 @@
+{
+  "date": "2026-11-06",
+  "hardware_connected": false,
+  "native_tests": {
+    "core": 12,
+    "app": 9,
+    "result": "pass"
+  },
+  "python_tests": 16,
+  "geometry_tests": 3,
+  "ui_verified": [
+    "photo F2 click selects button:24:2",
+    "learn mode opens filtered action chooser",
+    "search finds Region/add-warp-marker",
+    "assignment persists to active Ardour profile",
+    "subsequent photo click logs OSC action in preview mode"
+  ],
+  "live_daw_validated": true,
+  "physical_output_validated": false,
+  "deferred": [
+    "pitch tuning fader with motor snap-to-note feel"
+  ],
+  "live_daw_scope": "Ardour 9.8.93: fader, mute, pan, play/stop with DAW feedback; see ardour-live-test.json"
+}

@@ -1,0 +1,14 @@
+__pycache__/
+.venv/
+runtime/
+.DS_Store
+*.pyc
+native/.build/
+native/.swiftpm/
+build/
+research/manual/
+
+# Local launch configuration and prototype reference photo
+/Launch Development Ardour.command
+/web/assets/control24-reference.png
+/native/Sources/Control24Lab/Resources/control24-reference.png

@@ -1,0 +1,10 @@
+{
+  "imageWidth": 1000,
+  "imageHeight": 527,
+  "planes": {
+    "upper": [[124, 25], [873, 25], [897, 246], [100, 246]],
+    "lower": [[100, 249], [898, 249], [946, 419], [48, 419]]
+  },
+  "faders": {"firstU": 0.086, "stepU": 0.0268, "topV": 0.546, "bottomV": 0.903},
+  "note": "Measured prototype calibration for the original product reference. Coordinates remain approximate; both panels use independent projective transforms."
+}

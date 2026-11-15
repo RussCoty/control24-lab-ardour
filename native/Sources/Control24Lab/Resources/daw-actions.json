@@ -1,0 +1,8225 @@
+{
+  "target": "Ardour",
+  "checkout": "Ardour",
+  "base_revision": "",
+  "build_version": "9.8.93",
+  "notes": [],
+  "actions": [
+    {
+      "id": "action:Common/alternate-add-location-from-playhead",
+      "title": "add mark at playhead",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/alternate-add-location-from-playhead"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/alternate-remove-location-from-playhead",
+      "title": "add mark at playhead",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/alternate-remove-location-from-playhead"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/add-location-from-playhead",
+      "title": "add marker",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/add-location-from-playhead"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/addExistingAudioFiles",
+      "title": "import audio files",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/addExistingAudioFiles"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/invert-selection",
+      "title": "invert selection",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/invert-selection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/ToggleMaximalEditor",
+      "title": "maximise editor space",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/ToggleMaximalEditor"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/ToggleMaximalMixer",
+      "title": "maximise mixer space",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/ToggleMaximalMixer"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/next-tab",
+      "title": "next tab",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/next-tab"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/nudge-playhead-backward",
+      "title": "nudge backward",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/nudge-playhead-backward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/nudge-playhead-forward",
+      "title": "nudge forwards",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/nudge-playhead-forward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/previous-tab",
+      "title": "previous tab",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/previous-tab"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/Quit",
+      "title": "quit",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/Quit"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/remove-location-from-playhead",
+      "title": "remove marker",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/remove-location-from-playhead"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/Save",
+      "title": "save session",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/Save"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/select-all-visible-lanes",
+      "title": "select all visible lanes",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/select-all-visible-lanes"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/finish-loop-range",
+      "title": "set the end of the Loop range",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/finish-loop-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/finish-punch-range",
+      "title": "set the end of the Punch range",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/finish-punch-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/alt-finish-range",
+      "title": "set the end of the range selection",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/alt-finish-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/start-loop-range",
+      "title": "set the start of the Loop range",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/start-loop-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/start-punch-range",
+      "title": "set the start of the Punch range",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/start-punch-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/alt-start-range",
+      "title": "set the start of the range selection",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/alt-start-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/show-trigger",
+      "title": "show cues page",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/show-trigger"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/toggle-meterbridge",
+      "title": "show meter bridge",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/toggle-meterbridge"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/show-mixer",
+      "title": "show mixer window",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/show-mixer"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/show-recorder",
+      "title": "show recorder page",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/show-recorder"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/nudge-next-backward",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/nudge-next-backward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/nudge-next-forward",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/nudge-next-forward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/start-range",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/start-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/finish-range",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/finish-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/playhead-forward-to-grid",
+      "title": "to next grid point",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/playhead-forward-to-grid"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/jump-forward-to-mark",
+      "title": "to next mark",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/jump-forward-to-mark"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/alternate-jump-forward-to-mark",
+      "title": "to next mark",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/alternate-jump-forward-to-mark"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/playhead-backward-to-grid",
+      "title": "to previous grid point",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/playhead-backward-to-grid"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/jump-backward-to-mark",
+      "title": "to previous mark",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/jump-backward-to-mark"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Common/alternate-jump-backward-to-mark",
+      "title": "to previous mark",
+      "group": "Ardour actions \u00b7 Common",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Common/alternate-jump-backward-to-mark"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/alternate-editor-delete",
+      "title": "backspace (delete)",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/alternate-editor-delete"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/set-mouse-mode-content",
+      "title": "content mode",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/set-mouse-mode-content"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/editor-copy",
+      "title": "copy",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/editor-copy"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/editor-cut",
+      "title": "cut",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/editor-cut"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/set-mouse-mode-cut",
+      "title": "cut mode",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/set-mouse-mode-cut"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/cycle-snap-mode",
+      "title": "cycle to next snap mode {On/Off}",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/cycle-snap-mode"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/editor-delete",
+      "title": "delete",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/editor-delete"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/set-mouse-mode-grid",
+      "title": "grid mode",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/set-mouse-mode-grid"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/set-mouse-mode-draw",
+      "title": "note-draw mode",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/set-mouse-mode-draw"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/set-mouse-mode-object",
+      "title": "object mode",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/set-mouse-mode-object"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/editor-paste",
+      "title": "paste",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/editor-paste"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/set-mouse-mode-range",
+      "title": "range mode",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/set-mouse-mode-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/redo",
+      "title": "redo",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/redo"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/alternate-redo",
+      "title": "redo",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/alternate-redo"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/alternate-alternate-redo",
+      "title": "redo",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/alternate-alternate-redo"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/set-mouse-mode-timefx",
+      "title": "timefx mode",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/set-mouse-mode-timefx"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/undo",
+      "title": "undo",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/undo"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/next-grid-choice",
+      "title": "use next grid unit",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/next-grid-choice"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/prev-grid-choice",
+      "title": "use prev grid unit",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/prev-grid-choice"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/set-mouse-mode-warp",
+      "title": "warp mode",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/set-mouse-mode-warp"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/temporal-zoom-in",
+      "title": "zoom in",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/temporal-zoom-in"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editing/temporal-zoom-out",
+      "title": "zoom out",
+      "group": "Ardour actions \u00b7 Editing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editing/temporal-zoom-out"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/add-range-marker-from-selection",
+      "title": "Add single Range marker from selection",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/add-range-marker-from-selection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/copy-playlists-for-all-tracks",
+      "title": "Copy Playlists for ALL tracks",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/copy-playlists-for-all-tracks"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/copy-playlists-for-armed-tracks",
+      "title": "Copy Playlists for Armed tracks",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/copy-playlists-for-armed-tracks"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/copy-playlists-for-selected-tracks",
+      "title": "Copy Playlists for Selected tracks",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/copy-playlists-for-selected-tracks"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/layer-display-overlaid",
+      "title": "Display Region Layers: Overlaid",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/layer-display-overlaid"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/layer-display-stacked",
+      "title": "Display Region Layers: Stacked",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/layer-display-stacked"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/edit-cursor-to-next-region-sync",
+      "title": "EP to next region sync",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/edit-cursor-to-next-region-sync"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/edit-cursor-to-previous-region-sync",
+      "title": "EP to prev region sync",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/edit-cursor-to-previous-region-sync"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/new-playlists-for-armed-tracks",
+      "title": "New Playlists for ALL tracks",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/new-playlists-for-armed-tracks"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/new-playlists-for-all-tracks",
+      "title": "New Playlists for ALL tracks",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/new-playlists-for-all-tracks"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/new-playlists-for-selected-tracks",
+      "title": "New Playlists for Selected tracks",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/new-playlists-for-selected-tracks"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/set-mouse-mode-object-range",
+      "title": "Smart Mode (provide some Range tools in Object mode)",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/set-mouse-mode-object-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/editor-consolidate",
+      "title": "consolidate range",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/editor-consolidate"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/copy-paste-section",
+      "title": "copy & paste section",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/copy-paste-section"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/editor-crop",
+      "title": "crop range",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/editor-crop"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/cut-paste-section",
+      "title": "cut & paste section",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/cut-paste-section"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/cycle-edit-mode",
+      "title": "cycle edit mode {slide, lock, ripple}",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/cycle-edit-mode"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/delete-section",
+      "title": "delete section",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/delete-section"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/alternate-delete-section",
+      "title": "delete section",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/alternate-delete-section"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/multi-duplicate",
+      "title": "duplicate (multi)",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/multi-duplicate"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/duplicate",
+      "title": "duplicate (once)",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/duplicate"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/expand-tracks",
+      "title": "expand track height",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/expand-tracks"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/editor-fade-range",
+      "title": "fade range selection",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/editor-fade-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/find-and-display-stripable",
+      "title": "find and display track/bus",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/find-and-display-stripable"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/fit-selection",
+      "title": "fit selection vertically",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/fit-selection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/group-selected-regions",
+      "title": "group selected regions",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/group-selected-regions"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/move-selected-tracks-down",
+      "title": "move selected tracks down",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/move-selected-tracks-down"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/move-selected-tracks-up",
+      "title": "move selected tracks up",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/move-selected-tracks-up"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/selected-marker-to-next-region-boundary",
+      "title": "move to next region edge",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/selected-marker-to-next-region-boundary"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/selected-marker-to-previous-region-boundary",
+      "title": "move to prev region edge",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/selected-marker-to-previous-region-boundary"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/cycle-edit-point-with-marker",
+      "title": "next EP w/marker {playhead, mouse, marker}",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/cycle-edit-point-with-marker"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/cycle-edit-point",
+      "title": "next EP w/o marker {playhead, mouse}",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/cycle-edit-point"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/nudge-backward",
+      "title": "nudge backward",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/nudge-backward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/nudge-forward",
+      "title": "nudge forward",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/nudge-forward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/play-from-edit-point-and-return",
+      "title": "play from EP & return",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/play-from-edit-point-and-return"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/scroll-tracks-down",
+      "title": "scroll down (page)",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/scroll-tracks-down"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/step-tracks-down",
+      "title": "scroll down (step)",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/step-tracks-down"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/scroll-tracks-up",
+      "title": "scroll up (page)",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/scroll-tracks-up"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/step-tracks-up",
+      "title": "scroll up (step)",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/step-tracks-up"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-all-after-edit-cursor",
+      "title": "select all after EP",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-all-after-edit-cursor"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-all-in-loop-range",
+      "title": "select all in loop range",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-all-in-loop-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-all-in-punch-range",
+      "title": "select all in punch range",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-all-in-punch-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-all-objects",
+      "title": "select all objects",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-all-objects"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-all-between-cursors",
+      "title": "select all regions enclosed by Range",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-all-between-cursors"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-all-within-cursors",
+      "title": "select all regions touched by Range",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-all-within-cursors"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-next-stripable",
+      "title": "select next strip",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-next-stripable"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-next-route",
+      "title": "select next track/bus",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-next-route"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-prev-stripable",
+      "title": "select previous strip",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-prev-stripable"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-prev-route",
+      "title": "select previous track/bus",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-prev-route"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/select-from-regions",
+      "title": "set Range to selected regions",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/select-from-regions"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/set-loop-from-edit-range",
+      "title": "set loop range from edit range",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/set-loop-from-edit-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/set-playhead",
+      "title": "set playhead position",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/set-playhead"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/set-punch-from-edit-range",
+      "title": "set punch range from edit range",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/set-punch-from-edit-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/set-tempo-from-edit-range",
+      "title": "set tempo (1 bar) from edit range",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/set-tempo-from-edit-range"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/show-editor-list",
+      "title": "show editor list",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/show-editor-list"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/show-plist-selector",
+      "title": "show-plist-selector",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/show-plist-selector"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/shrink-tracks",
+      "title": "shrink track height",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/shrink-tracks"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-1",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-1"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-2",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-2"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-3",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-3"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-4",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-4"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-5",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-5"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-6",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-6"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-7",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-7"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-8",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-8"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-9",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-9"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-10",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-10"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-11",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-11"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/save-visual-state-12",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/save-visual-state-12"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-1",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-1"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-2",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-2"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-3",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-3"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-4",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-4"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-5",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-5"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-6",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-6"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-7",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-7"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-8",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-8"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-9",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-9"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-10",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-10"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-11",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-11"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/goto-visual-state-12",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/goto-visual-state-12"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/split-region",
+      "title": "split/separate",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/split-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/playhead-to-next-region-boundary",
+      "title": "to next region edge",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/playhead-to-next-region-boundary"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/playhead-to-next-region-sync",
+      "title": "to next region sync",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/playhead-to-next-region-sync"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/tab-to-transient-forwards",
+      "title": "to next transient",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/tab-to-transient-forwards"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/playhead-to-previous-region-boundary",
+      "title": "to previous region edge",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/playhead-to-previous-region-boundary"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/playhead-to-previous-region-sync",
+      "title": "to previous region sync",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/playhead-to-previous-region-sync"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/tab-to-transient-backwards",
+      "title": "to previous transient",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/tab-to-transient-backwards"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/show-editor-props",
+      "title": "toggle editor properties",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/show-editor-props"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/show-editor-mixer",
+      "title": "toggle editor window mixer",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/show-editor-mixer"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/toggle-zoom",
+      "title": "toggle last 2 zoom states",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/toggle-zoom"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/toggle-midi-input-active",
+      "title": "toggle sel. track MIDI input",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/toggle-midi-input-active"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/ToggleSummary",
+      "title": "toggle summary",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/ToggleSummary"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/track-record-enable-toggle",
+      "title": "toggle track rec-enable ",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/track-record-enable-toggle"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/track-solo-toggle",
+      "title": "toggle track solo status",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/track-solo-toggle"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/ToggleVerticalSummary",
+      "title": "toggle vertical summary",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/ToggleVerticalSummary"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/ungroup-selected-regions",
+      "title": "ungroup selected regions",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/ungroup-selected-regions"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/ToggleJadeo",
+      "title": "video window",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/ToggleJadeo"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/zoom-to-selection",
+      "title": "zoom to selection",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/zoom-to-selection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Editor/zoom-to-session",
+      "title": "zoom to session",
+      "group": "Ardour actions \u00b7 Editor",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Editor/zoom-to-session"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:EditorEditing/toggle-follow-playhead",
+      "title": "toggle playhead tracking",
+      "group": "Ardour actions \u00b7 EditorEditing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "EditorEditing/toggle-follow-playhead"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:EditorEditing/toggle-stationary-playhead",
+      "title": "toggle stationary playhead",
+      "group": "Ardour actions \u00b7 EditorEditing",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "EditorEditing/toggle-stationary-playhead"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:MIDI/panic",
+      "title": "MIDI panic (stop all midi notes)",
+      "group": "Ardour actions \u00b7 MIDI",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "MIDI/panic"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Main/AddTrackBus",
+      "title": "add track(s) or bus(ses)",
+      "group": "Ardour actions \u00b7 Main",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Main/AddTrackBus"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Main/Escape",
+      "title": "break drag or deselect all",
+      "group": "Ardour actions \u00b7 Main",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Main/Escape"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Main/ExportAudio",
+      "title": "export session",
+      "group": "Ardour actions \u00b7 Main",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Main/ExportAudio"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Main/New",
+      "title": "open a new session",
+      "group": "Ardour actions \u00b7 Main",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Main/New"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Main/Recent",
+      "title": "open a recent session",
+      "group": "Ardour actions \u00b7 Main",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Main/Recent"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Main/Open",
+      "title": "open an existing session",
+      "group": "Ardour actions \u00b7 Main",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Main/Open"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Main/QuickExport",
+      "title": "quick export session",
+      "group": "Ardour actions \u00b7 Main",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Main/QuickExport"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Main/SnapshotStay",
+      "title": "snapshot session",
+      "group": "Ardour actions \u00b7 Main",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Main/SnapshotStay"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Main/StemExport",
+      "title": "stem export selected tracks",
+      "group": "Ardour actions \u00b7 Main",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Main/StemExport"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-interval-M2",
+      "title": "Add major 2nd (2 semitones)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-interval-M2"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-interval-M3",
+      "title": "Add major 3rd (4 semitones)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-interval-M3"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-interval-m7",
+      "title": "Add major 7th (11 semitones)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-interval-m7"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-interval-m2",
+      "title": "Add minor 2nd (1 semitone)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-interval-m2"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-interval-m3",
+      "title": "Add minor 3rd (3 semitones)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-interval-m3"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-interval-M7",
+      "title": "Add minor 7th (10 semitones)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-interval-M7"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/alt-add-select-next",
+      "title": "Add next note to selection",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/alt-add-select-next"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-interval-P8",
+      "title": "Add octave (12 semitones)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-interval-P8"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-interval-P4",
+      "title": "Add perfect 4th (5 semitones)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-interval-P4"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-interval-P5",
+      "title": "Add perfect 5th (7 semitones)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-interval-P5"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-select-previous",
+      "title": "Add previous note to selection",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-select-previous"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/alt-add-select-previous",
+      "title": "Add previous note to selection",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/alt-add-select-previous"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/clear-selection",
+      "title": "Clear note selection",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/clear-selection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/duplicate-selection",
+      "title": "Duplicate note selection",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/duplicate-selection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/edit-channels",
+      "title": "Edit Note Channels",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/edit-channels"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/edit-velocities",
+      "title": "Edit Note Velocities",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/edit-velocities"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/extend-selection",
+      "title": "Extend selection to end of region",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/extend-selection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/increase-velocity-fine",
+      "title": "Increase Note Velocity (+1)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/increase-velocity-fine"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/decrease-velocity-fine",
+      "title": "Increase Note Velocity (+1)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/decrease-velocity-fine"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/increase-velocity-fine-smush",
+      "title": "Increase Note Velocity (+1) allow mushing",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/increase-velocity-fine-smush"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/decrease-velocity-fine-smush",
+      "title": "Increase Note Velocity (+1) allow mushing",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/decrease-velocity-fine-smush"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/increase-velocity",
+      "title": "Increase Note Velocity (+8)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/increase-velocity"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/decrease-velocity",
+      "title": "Increase Note Velocity (+8)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/decrease-velocity"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/increase-velocity-smush",
+      "title": "Increase Note Velocity (+8) allow mushing",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/increase-velocity-smush"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/decrease-velocity-smush",
+      "title": "Increase Note Velocity (+8) allow mushing",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/decrease-velocity-smush"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/invert-selection",
+      "title": "Invert note selection",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/invert-selection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/join-notes",
+      "title": "Join Notes",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/join-notes"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/move-ends-earlier",
+      "title": "Move Note Ends Earlier",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/move-ends-earlier"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/move-ends-earlier-fine",
+      "title": "Move Note Ends Earlier (Fine)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/move-ends-earlier-fine"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/move-ends-later",
+      "title": "Move Note Ends Later",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/move-ends-later"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/move-ends-later-fine",
+      "title": "Move Note Ends Later (Fine)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/move-ends-later-fine"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/move-starts-earlier",
+      "title": "Move Note Starts Earlier",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/move-starts-earlier"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/move-starts-earlier-fine",
+      "title": "Move Note Starts Earlier (Fine)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/move-starts-earlier-fine"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/move-starts-later",
+      "title": "Move Note Starts Later",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/move-starts-later"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/move-starts-later-fine",
+      "title": "Move Note Starts Later (Fine)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/move-starts-later-fine"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/nudge-earlier",
+      "title": "Nudge Notes Earlier",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/nudge-earlier"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/nudge-earlier-fine",
+      "title": "Nudge Notes Earlier (fine)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/nudge-earlier-fine"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/nudge-later",
+      "title": "Nudge Notes Later",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/nudge-later"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/nudge-later-fine",
+      "title": "Nudge Notes Later (fine)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/nudge-later-fine"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/quantize-selected-notes",
+      "title": "Quantize Selected Notes",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/quantize-selected-notes"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/select-all",
+      "title": "Select all notes",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/select-all"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/select-next",
+      "title": "Select next note",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/select-next"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/add-select-next",
+      "title": "Select next note",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/add-select-next"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/select-previous",
+      "title": "Select previous note",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/select-previous"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/split-notes-grid",
+      "title": "Split Notes By Grid",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/split-notes-grid"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/split-notes-less",
+      "title": "Split Notes Less Finely",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/split-notes-less"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/split-notes-more",
+      "title": "Split Notes More Finely",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/split-notes-more"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/transpose-down-octave",
+      "title": "Transpose down (1 octave)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/transpose-down-octave"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/transpose-down-octave-smush",
+      "title": "Transpose down (1 octave) allow mushing",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/transpose-down-octave-smush"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/transpose-down-semitone",
+      "title": "Transpose down (1 semitone)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/transpose-down-semitone"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/transpose-down-semitone-smush",
+      "title": "Transpose down (1 tone) allow mushing",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/transpose-down-semitone-smush"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/transpose-up-octave",
+      "title": "Transpose up (1 octave)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/transpose-up-octave"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/transpose-up-octave-smush",
+      "title": "Transpose up (1 octave) allow mushing",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/transpose-up-octave-smush"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/transpose-up-semitone",
+      "title": "Transpose up (1 semitone)",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/transpose-up-semitone"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/transpose-up-semitone-smush",
+      "title": "Transpose up (1 semitone) allow mushing",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/transpose-up-semitone-smush"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Notes/duplicate-notes",
+      "title": "duplicate selected notes",
+      "group": "Ardour actions \u00b7 Notes",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Notes/duplicate-notes"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Recorder/arm-none",
+      "title": "disable record arm of all tracks",
+      "group": "Ardour actions \u00b7 Recorder",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Recorder/arm-none"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Recorder/arm-all",
+      "title": "record arm all tracks",
+      "group": "Ardour actions \u00b7 Recorder",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Recorder/arm-all"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Recorder/rec-redo",
+      "title": "redo",
+      "group": "Ardour actions \u00b7 Recorder",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Recorder/rec-redo"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Recorder/alternate-rec-redo",
+      "title": "redo",
+      "group": "Ardour actions \u00b7 Recorder",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Recorder/alternate-rec-redo"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Recorder/rec-undo",
+      "title": "undo",
+      "group": "Ardour actions \u00b7 Recorder",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Recorder/rec-undo"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Region/add-range-markers-from-region",
+      "title": "Add Range Marker Per Region",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/add-range-markers-from-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/add-region-cue-marker",
+      "title": "Add Region Cue Marker",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/add-region-cue-marker"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/add-range-marker-from-region",
+      "title": "Add Single Range Marker",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/add-range-marker-from-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/align-regions-end",
+      "title": "Align End",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/align-regions-end"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/align-regions-end-relative",
+      "title": "Align End Relative",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/align-regions-end-relative"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/align-regions-start",
+      "title": "Align Start",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/align-regions-start"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/align-regions-start-relative",
+      "title": "Align Start Relative",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/align-regions-start-relative"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/align-regions-sync",
+      "title": "Align Sync",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/align-regions-sync"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/align-regions-sync-relative",
+      "title": "Align Sync Relative",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/align-regions-sync-relative"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/boost-region-gain",
+      "title": "Boost Gain",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/boost-region-gain"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/bounce-regions-processed",
+      "title": "Bounce (with processing)",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/bounce-regions-processed"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/bounce-regions-unprocessed",
+      "title": "Bounce (without processing)",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/bounce-regions-unprocessed"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/choose-top-region",
+      "title": "Choose Top...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/choose-top-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/choose-top-region-context-menu",
+      "title": "Choose Top...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/choose-top-region-context-menu"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/clear-region-cue-markers",
+      "title": "Clear Region Cue Markers",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/clear-region-cue-markers"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/close-region-gaps",
+      "title": "Close Gaps",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/close-region-gaps"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/combine-regions",
+      "title": "Combine",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/combine-regions"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/make-region-markers-cd",
+      "title": "Convert Region Cue Markers to CD Markers",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/make-region-markers-cd"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/make-region-markers-global",
+      "title": "Convert Region Cue Markers to Location Markers",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/make-region-markers-global"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/cut-region-gain",
+      "title": "Cut Gain",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/cut-region-gain"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/deinterlace-midi",
+      "title": "Deinterlace Into Layers",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/deinterlace-midi"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/duplicate-region",
+      "title": "Duplicate",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/duplicate-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/edit-region-dedicated-window",
+      "title": "Edit in separate window...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/edit-region-dedicated-window"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/export-region",
+      "title": "Export...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/export-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/region-fill-track",
+      "title": "Fill Track",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/region-fill-track"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/insert-patch-change",
+      "title": "Insert Patch Change...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/insert-patch-change"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/insert-patch-change-context",
+      "title": "Insert Patch Change...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/insert-patch-change-context"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/insert-region-from-source-list",
+      "title": "Insert Region from Source List",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/insert-region-from-source-list"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/legatize-region",
+      "title": "Legatize",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/legatize-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/show-region-list-editor",
+      "title": "List Editor...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/show-region-list-editor"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/region-lock",
+      "title": "Lock",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/region-lock"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/loop-region",
+      "title": "Loop",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/loop-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/loudness-analyze-region",
+      "title": "Loudness Analysis...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/loudness-analyze-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/lower-region",
+      "title": "Lower",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/lower-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/lower-region-to-bottom",
+      "title": "Lower to Bottom",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/lower-region-to-bottom"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/split-multichannel-region",
+      "title": "Make Mono Regions",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/split-multichannel-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/naturalize-region",
+      "title": "Move to Original Position",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/naturalize-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/multi-duplicate-region",
+      "title": "Multi-Duplicate...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/multi-duplicate-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/normalize-region",
+      "title": "Normalize...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/normalize-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/nudge-backward",
+      "title": "Nudge Earlier",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/nudge-backward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/alternate-nudge-backward",
+      "title": "Nudge Earlier",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/alternate-nudge-backward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/nudge-backward-by-capture-offset",
+      "title": "Nudge Earlier by Capture Offset",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/nudge-backward-by-capture-offset"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/nudge-forward",
+      "title": "Nudge Later",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/nudge-forward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/alternate-nudge-forward",
+      "title": "Nudge Later",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/alternate-nudge-forward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/nudge-forward-by-capture-offset",
+      "title": "Nudge Later by Capture Offset",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/nudge-forward-by-capture-offset"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/pitch-shift-region",
+      "title": "Pitch Shift...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/pitch-shift-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/place-transient",
+      "title": "Place Transient",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/place-transient"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/play-selected-regions",
+      "title": "Play Selected Regions",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/play-selected-regions"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/quantize-region",
+      "title": "Quantize...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/quantize-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/raise-region",
+      "title": "Raise",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/raise-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/raise-region-to-top",
+      "title": "Raise to Top",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/raise-region-to-top"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/remove-region",
+      "title": "Remove",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/remove-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/remove-overlap",
+      "title": "Remove Overlap",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/remove-overlap"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/remove-region-sync",
+      "title": "Remove Sync",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/remove-region-sync"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/rename-region",
+      "title": "Rename...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/rename-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/reset-region-gain-envelopes",
+      "title": "Reset Envelope",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/reset-region-gain-envelopes"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/reset-region-gain",
+      "title": "Reset Gain",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/reset-region-gain"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/reverse-region",
+      "title": "Reverse",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/reverse-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/show-rhythm-ferret",
+      "title": "Rhythm Ferret...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/show-rhythm-ferret"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/separate-under-region",
+      "title": "Separate Under",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/separate-under-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/sequence-regions",
+      "title": "Sequence Regions",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/sequence-regions"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/set-fade-in-length",
+      "title": "Set Fade In Length",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/set-fade-in-length"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/alternate-set-fade-in-length",
+      "title": "Set Fade In Length",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/alternate-set-fade-in-length"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/set-fade-out-length",
+      "title": "Set Fade Out Length",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/set-fade-out-length"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/alternate-set-fade-out-length",
+      "title": "Set Fade Out Length",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/alternate-set-fade-out-length"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/set-loop-from-region",
+      "title": "Set Loop Range",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/set-loop-from-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/set-punch-from-region",
+      "title": "Set Punch",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/set-punch-from-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/set-selection-from-region",
+      "title": "Set Range Selection",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/set-selection-from-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/set-region-sync-position",
+      "title": "Set Sync Position",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/set-region-sync-position"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/set-tempo-from-region",
+      "title": "Set Tempo from Region = Bar",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/set-tempo-from-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/snap-regions-to-grid",
+      "title": "Snap Position to Grid",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/snap-regions-to-grid"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/spectral-analyze-region",
+      "title": "Spectral Analysis...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/spectral-analyze-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/split-region-at-transients",
+      "title": "Split at Percussion Onsets",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/split-region-at-transients"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/strip-region-silence",
+      "title": "Strip Silence...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/strip-region-silence"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/tag-selected-regions",
+      "title": "Tag Selected Regions",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/tag-selected-regions"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/transform-region",
+      "title": "Transform...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/transform-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/transpose-region",
+      "title": "Transpose...",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/transpose-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/trim-back",
+      "title": "Trim End at Edit Point",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/trim-back"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/trim-front",
+      "title": "Trim Start at Edit Point",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/trim-front"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/trim-region-to-loop",
+      "title": "Trim to Loop",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/trim-region-to-loop"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/trim-to-next-region",
+      "title": "Trim to Next",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/trim-to-next-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/trim-to-previous-region",
+      "title": "Trim to Previous",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/trim-to-previous-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/trim-region-to-punch",
+      "title": "Trim to Punch",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/trim-region-to-punch"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/uncombine-regions",
+      "title": "Uncombine",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/uncombine-regions"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/fork-region",
+      "title": "Unlink all selected regions",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/fork-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/fork-regions-from-unselected",
+      "title": "Unlink from unselected",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/fork-regions-from-unselected"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/region-unlock",
+      "title": "Unlock",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/region-unlock"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/editor_actions.cc"
+    },
+    {
+      "id": "action:Region/toggle-region-mute",
+      "title": "mute/unmute",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/toggle-region-mute"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Region/toggle-opaque-region",
+      "title": "toggle region opacity",
+      "group": "Ardour actions \u00b7 Region",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Region/toggle-opaque-region"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/alternate-numpad-decimal",
+      "title": "(some keybd layouts have separator instead of decimal)",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/alternate-numpad-decimal"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/RecordCountIn",
+      "title": "Transport: Record with Count-In",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/RecordCountIn"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/RecordPreroll",
+      "title": "Transport: Record with Pre-Roll",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/RecordPreroll"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/Record",
+      "title": "engage record",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/Record"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/Forward",
+      "title": "fast forward",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/Forward"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/focus-on-clock",
+      "title": "focus on main clock",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/focus-on-clock"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/Loop",
+      "title": "loop play (the loop range)",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/Loop"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-decimal",
+      "title": "numpad decimal should initiate and finalize a locate-to-marker",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-decimal"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/PlaySelection",
+      "title": "play edit range",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/PlaySelection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/Rewind",
+      "title": "rewind",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/Rewind"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/solo-selection",
+      "title": "solo selection",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/solo-selection"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-0",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-0"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-1",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-1"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-2",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-2"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-3",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-3"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-4",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-4"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-5",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-5"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-6",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-6"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-7",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-7"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-8",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-8"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/numpad-9",
+      "title": "some text",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/numpad-9"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/record-roll",
+      "title": "start recording",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/record-roll"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/ToggleRollMaybe",
+      "title": "stop (keep loop/range play)",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/ToggleRollMaybe"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/ToggleRollForgetCapture",
+      "title": "stop and destroy",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/ToggleRollForgetCapture"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/GotoEnd",
+      "title": "to end marker",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/GotoEnd"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/alternate-GotoStart",
+      "title": "to start marker",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/alternate-GotoStart"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/GotoStart",
+      "title": "to start marker",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/GotoStart"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/ToggleAutoPlay",
+      "title": "toggle auto play",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/ToggleAutoPlay"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/ToggleAutoReturn",
+      "title": "toggle auto return",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/ToggleAutoReturn"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/ToggleClick",
+      "title": "toggle click (metronome)",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/ToggleClick"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/ToggleExternalSync",
+      "title": "toggle external sync",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/ToggleExternalSync"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/ToggleFollowEdits",
+      "title": "toggle playhead follows edits",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/ToggleFollowEdits"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/TogglePunch",
+      "title": "toggle punch in+out",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/TogglePunch"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/ToggleRoll",
+      "title": "toggle roll",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/ToggleRoll"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/TransitionToReverse",
+      "title": "transition to reverse",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/TransitionToReverse"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Transport/TransitionToRoll",
+      "title": "transition to roll",
+      "group": "Ardour actions \u00b7 Transport",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Transport/TransitionToRoll"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Window/toggle-rtawindow",
+      "title": "show Realtime Analyzer",
+      "group": "Ardour actions \u00b7 Window",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Window/toggle-rtawindow"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Window/toggle-virtual-keyboard",
+      "title": "show Virtual MIDI keyboard",
+      "group": "Ardour actions \u00b7 Window",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Window/toggle-virtual-keyboard"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Window/toggle-audio-connection-manager",
+      "title": "toggle audio patchbay",
+      "group": "Ardour actions \u00b7 Window",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Window/toggle-audio-connection-manager"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Window/toggle-locations",
+      "title": "toggle locations dialog",
+      "group": "Ardour actions \u00b7 Window",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Window/toggle-locations"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Window/toggle-midi-connection-manager",
+      "title": "toggle midi patchbay",
+      "group": "Ardour actions \u00b7 Window",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Window/toggle-midi-connection-manager"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "action:Window/toggle-session-options-editor",
+      "title": "toggle preferences dialog",
+      "group": "Ardour actions \u00b7 Window",
+      "mapping": {
+        "path": "/access_action",
+        "args": [
+          "Window/toggle-session-options-editor"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour"
+      ],
+      "requires_channel": false,
+      "source": "gtk2_ardour/ardour.keys.in"
+    },
+    {
+      "id": "osc:auto-latch",
+      "title": "Selected fader automation: Latch",
+      "group": "Automation",
+      "mapping": {
+        "path": "/select/fader/automation",
+        "args": [
+          4
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:auto-off",
+      "title": "Selected fader automation: Off",
+      "group": "Automation",
+      "mapping": {
+        "path": "/select/fader/automation",
+        "args": [
+          0
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:auto-read",
+      "title": "Selected fader automation: Read",
+      "group": "Automation",
+      "mapping": {
+        "path": "/select/fader/automation",
+        "args": [
+          1
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:auto-touch",
+      "title": "Selected fader automation: Touch",
+      "group": "Automation",
+      "mapping": {
+        "path": "/select/fader/automation",
+        "args": [
+          3
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:auto-write",
+      "title": "Selected fader automation: Write",
+      "group": "Automation",
+      "mapping": {
+        "path": "/select/fader/automation",
+        "args": [
+          2
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:fader",
+      "title": "Channel fader",
+      "group": "Channel strips",
+      "mapping": {
+        "path": "/strip/fader",
+        "args": [
+          "$channel",
+          "$value"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "fader"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": true,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:touch",
+      "title": "Channel fader touch / release",
+      "group": "Channel strips",
+      "mapping": {
+        "path": "/strip/fader/touch",
+        "args": [
+          "$channel",
+          "$value"
+        ],
+        "trigger": "both"
+      },
+      "kinds": [
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": true,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:mute",
+      "title": "Channel mute toggle",
+      "group": "Channel strips",
+      "mapping": {
+        "path": "/strip/mute",
+        "args": [
+          "$channel",
+          "$toggle"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": true,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:pan",
+      "title": "Channel pan (relative encoder \u2192 absolute position)",
+      "group": "Channel strips",
+      "mapping": {
+        "path": "/strip/pan_stereo_position",
+        "args": [
+          "$channel",
+          "$position"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "encoder"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": true,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:recenable",
+      "title": "Channel record enable toggle",
+      "group": "Channel strips",
+      "mapping": {
+        "path": "/strip/recenable",
+        "args": [
+          "$channel",
+          "$toggle"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": true,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:solo",
+      "title": "Channel solo toggle",
+      "group": "Channel strips",
+      "mapping": {
+        "path": "/strip/solo",
+        "args": [
+          "$channel",
+          "$toggle"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": true,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:select",
+      "title": "Select channel",
+      "group": "Channel strips",
+      "mapping": {
+        "path": "/strip/select",
+        "args": [
+          "$channel",
+          1
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": true,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:selected-mute",
+      "title": "Selected track mute toggle",
+      "group": "Selected track",
+      "mapping": {
+        "path": "/select/mute",
+        "args": [
+          "$toggle"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:selected-recenable",
+      "title": "Selected track record enable toggle",
+      "group": "Selected track",
+      "mapping": {
+        "path": "/select/recenable",
+        "args": [
+          "$toggle"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:selected-solo",
+      "title": "Selected track solo toggle",
+      "group": "Selected track",
+      "mapping": {
+        "path": "/select/solo",
+        "args": [
+          "$toggle"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:marker",
+      "title": "Add marker at playhead",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/add_marker",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:bank-down",
+      "title": "Bank left (24 strips)",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/bank_down",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:bank-up",
+      "title": "Bank right (24 strips)",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/bank_up",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:forward",
+      "title": "Fast forward",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/ffwd",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:end",
+      "title": "Go to end",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/goto_end",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:start",
+      "title": "Go to start",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/goto_start",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:jog",
+      "title": "Jog / scrub (relative wheel)",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/jog",
+        "args": [
+          "$delta"
+        ],
+        "trigger": "press"
+      },
+      "kinds": [
+        "encoder"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:play",
+      "title": "Play",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/transport_play",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:rewind",
+      "title": "Rewind",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/rewind",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:save",
+      "title": "Save session",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/save_state",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:next",
+      "title": "Select next track",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/select/next",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:previous",
+      "title": "Select previous track",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/select/previous",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:stop",
+      "title": "Stop",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/transport_stop",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:record",
+      "title": "Toggle global record",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/rec_enable_toggle",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    },
+    {
+      "id": "osc:loop",
+      "title": "Toggle loop",
+      "group": "Transport / navigation",
+      "mapping": {
+        "path": "/loop_toggle",
+        "args": [],
+        "trigger": "press"
+      },
+      "kinds": [
+        "button",
+        "touch"
+      ],
+      "profiles": [
+        "ardour",
+        "mixbus"
+      ],
+      "requires_channel": false,
+      "source": "libs/surfaces/osc/osc.cc"
+    }
+  ]
+}
